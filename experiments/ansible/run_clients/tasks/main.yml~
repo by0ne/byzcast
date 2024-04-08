@@ -10,5 +10,5 @@
   - name: execute client nodes
     shell: 
       cmd: nohup ./run-client.sh &
-      chdir: /users/byone/byzcast/experiments/experiment/
+      chdir: /users/jeffSD/byzcast/experiments/experiment/
     

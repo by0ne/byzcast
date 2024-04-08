@@ -1,37 +1,37 @@
 ---     
   - name: clean all hosts before clone
     file:
-      path: /users/byone/byzcast
+      path: /users/jeffSD/byzcast
       state: absent
 
   - name: clone ByzCast on all hosts
     git:
-      repo: https://github.com/by0ne/byzcast
-      dest: /users/byone/byzcast/
+      repo: https://github.com/jefnvo/byzcast-tcc
+      dest: /users/jeffSD/byzcast/
       clone: yes
       update: no
   - name: Recursively change ownership of a directory
     file:
-      path: /users/byone/byzcast/
+      path: /users/jeffSD/byzcast/
       state: directory
       recurse: yes
-      owner: byone
+      owner: jeffSD
       mode: u=rwx,g=rwx,o=r
 
   - name: kill proccess if exists
     shell:
       cmd: nohup ./kill-byzcast.sh &
-      chdir: /users/byone/byzcast/experiments/experiment/
+      chdir: /users/jeffSD/byzcast/experiments/experiment/
       
   - name: Build protocol
     shell: 
       cmd: mvn clean install
-      chdir: /users/byone/byzcast/
+      chdir: /users/jeffSD/byzcast/
     register: mvn_result
 
   - name: create experiment in all machines
     shell: 
-      cmd: python3 /users/byone/byzcast/experiments/main.py
-      chdir: /users/byone/byzcast/experiments/
+      cmd: python3 /users/jeffSD/byzcast/experiments/main.py
+      chdir: /users/jeffSD/byzcast/experiments/
 
   
