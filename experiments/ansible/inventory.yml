@@ -3,38 +3,38 @@ all:
   children:
     servers:
       hosts:
-        ms0242.utah.cloudlab.us:
-        ms0724.utah.cloudlab.us:
-        ms0208.utah.cloudlab.us:
-        ms0244.utah.cloudlab.us:
-        ms0218.utah.cloudlab.us:
-        ms0220.utah.cloudlab.us:
-        ms0237.utah.cloudlab.us:
-        ms0216.utah.cloudlab.us:
-        ms0231.utah.cloudlab.us:
-        ms0213.utah.cloudlab.us:
-        ms0738.utah.cloudlab.us:
-        ms0209.utah.cloudlab.us:
-        ms0719.utah.cloudlab.us:
-        ms0704.utah.cloudlab.us:
-        ms0211.utah.cloudlab.us:
-        ms0701.utah.cloudlab.us:
-        ms0230.utah.cloudlab.us:
-        ms0703.utah.cloudlab.us:
-        ms0735.utah.cloudlab.us:
-        ms0204.utah.cloudlab.us:
-        ms0225.utah.cloudlab.us:
-        ms0236.utah.cloudlab.us:
-        ms0210.utah.cloudlab.us:
-        ms0229.utah.cloudlab.us:
-        ms0206.utah.cloudlab.us:
-        ms0217.utah.cloudlab.us:
-        ms0226.utah.cloudlab.us:
-        ms0224.utah.cloudlab.us:
+        apt120.apt.emulab.net:
+        apt110.apt.emulab.net:
+        apt103.apt.emulab.net:
+        apt072.apt.emulab.net:
+        apt183.apt.emulab.net:
+        apt116.apt.emulab.net:
+        apt066.apt.emulab.net:
+        apt178.apt.emulab.net:
+        apt070.apt.emulab.net:
+        apt093.apt.emulab.net:
+        apt186.apt.emulab.net:
+        apt098.apt.emulab.net:
+        apt068.apt.emulab.net:
+        apt105.apt.emulab.net:
+        apt113.apt.emulab.net:
+        apt102.apt.emulab.net:
+        apt069.apt.emulab.net:
+        apt108.apt.emulab.net:
+        apt099.apt.emulab.net:
+        apt111.apt.emulab.net:
+        apt112.apt.emulab.net:
+        apt095.apt.emulab.net:
+        apt107.apt.emulab.net:
+        apt192.apt.emulab.net:
+        apt184.apt.emulab.net:
+        apt101.apt.emulab.net:
+        apt114.apt.emulab.net:
+        apt097.apt.emulab.net:
 
     clients:
       hosts:
-        ms0221.utah.cloudlab.us: 	
+        apt071.apt.emulab.net: 	
 
   vars:
     ansible_user: byone

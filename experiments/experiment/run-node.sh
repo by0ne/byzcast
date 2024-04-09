@@ -2,7 +2,7 @@
 exec >> ~/log.txt
 exec 2>&1
 
-IP=`ifconfig enp1s0d1 | grep "inet " | awk  '{print $2}'| awk '{print $1}'`
+IP=`ifconfig enp8s0d1 | grep "inet " | awk  '{print $2}'| awk '{print $1}'`
 
 if [ "$IP" = "" ]; then
   IP=`ifconfig ens1f1 | grep "inet " | awk  '{print $2}'| awk '{print $1}'`
