@@ -3,38 +3,38 @@ all:
   children:
     servers:
       hosts:
-        apt120.apt.emulab.net:
-        apt110.apt.emulab.net:
-        apt103.apt.emulab.net:
-        apt072.apt.emulab.net:
-        apt183.apt.emulab.net:
-        apt116.apt.emulab.net:
-        apt066.apt.emulab.net:
-        apt178.apt.emulab.net:
-        apt070.apt.emulab.net:
-        apt093.apt.emulab.net:
-        apt186.apt.emulab.net:
-        apt098.apt.emulab.net:
-        apt068.apt.emulab.net:
-        apt105.apt.emulab.net:
-        apt113.apt.emulab.net:
-        apt102.apt.emulab.net:
-        apt069.apt.emulab.net:
-        apt108.apt.emulab.net:
-        apt099.apt.emulab.net:
-        apt111.apt.emulab.net:
-        apt112.apt.emulab.net:
-        apt095.apt.emulab.net:
-        apt107.apt.emulab.net:
-        apt192.apt.emulab.net:
-        apt184.apt.emulab.net:
-        apt101.apt.emulab.net:
-        apt114.apt.emulab.net:
-        apt097.apt.emulab.net:
+        pc338.emulab.net:
+        pc203.emulab.net:
+        pc327.emulab.net:
+        pc250.emulab.net:
+        pc272.emulab.net:
+        pc249.emulab.net:
+        pc201.emulab.net:
+        pc351.emulab.net:
+        pc246.emulab.net:
+        pc281.emulab.net:
+        pc340.emulab.net:
+        pc255.emulab.net:
+        pc245.emulab.net:
+        pc349.emulab.net:
+        pc244.emulab.net:
+        pc243.emulab.net:
+        pc324.emulab.net:
+        pc306.emulab.net:
+        pc254.emulab.net:
+        pc326.emulab.net:
+        pc290.emulab.net:
+        pc204.emulab.net:
+        pc271.emulab.net:
+        pc278.emulab.net:
+        pc202.emulab.net:
+        pc264.emulab.net:
+        pc248.emulab.net:
+        pc274.emulab.net:
 
     clients:
       hosts:
-        apt071.apt.emulab.net: 	
+        pc247.emulab.net:
 
   vars:
     ansible_user: byone
